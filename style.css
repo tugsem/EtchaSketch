@@ -1,0 +1,70 @@
+*{
+    font-family: 'Special Elite', cursive;
+    font-size:x-large;
+    color: rgba(0, 60, 255, 0.274);
+    box-sizing: border-box;
+}
+
+#title{
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-image: linear-gradient( to left, rgba(0, 60, 255, 0.274), rgba(255, 136, 0, 0.5) );
+    
+}
+
+.center{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.menu{
+   text-align: center;
+   height: 30vh;
+}
+
+.btn{
+    padding: .4rem;
+    background-color: rgba(255, 255, 255, 0.582);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 25px;
+}
+
+#color{
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    width: 50px;
+    height: 50px;
+    cursor:pointer
+}
+#color::-webkit-color-swatch{
+    border-radius: 50%;
+    border: 1px solid rgba(0, 60, 255, 0.274) ;
+}
+#size{
+    cursor: pointer;
+}
+.gridContainer{
+    display: inline-grid;
+    height: 575px;
+    width: 575px;
+    border:1px solid rgba(0, 60, 255, 0.11);
+    box-shadow: 10px 10px 15px rgba(0, 60, 255, 0.274),
+    -10px -10px  15px rgba(255, 138, 4, 0.5);
+     
+
+}
+.square{
+    background-color: rgba(255, 255, 255, 0.582);
+    border: 1px solid rgba(0, 60, 255, 0.041);
+    cursor: pointer;
+}
+
+
